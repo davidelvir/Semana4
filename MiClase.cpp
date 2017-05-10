@@ -1,4 +1,4 @@
-#include "miClase.h"//uso "" para que lo busque dentro del directorio
+#include "MiClase.h"//uso "" para que lo busque dentro del directorio
 #include <iostream>
 using namespace std;
 
@@ -8,7 +8,7 @@ MiClase::MiClase(){
 }
 
 MiClase::MiClase(int psize){
-  size = psize;
+  this->size = psize;//this es igual que en java, solo que apuntador
   pointer = new int [size];
 }
 
