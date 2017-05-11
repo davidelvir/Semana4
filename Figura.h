@@ -4,8 +4,9 @@
 class Figura{
 
   public:
-    double area();
-    double perimetro();
+    //declaro los metodos como virtuales asi habilito el polimorfismo
+    virtual double area();
+    virtual double perimetro();
 };
 
 #endif
